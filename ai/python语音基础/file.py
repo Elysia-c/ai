@@ -1,0 +1,7 @@
+f=open("myfile.txt","w")
+f.write("Hello!")
+f=open("myfile.txt","a")
+f.write("World!")
+f=open("myfile.txt")
+f.read()
+# f.close()
